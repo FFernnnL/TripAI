@@ -1,0 +1,98 @@
+/* Morandi Theme - 莫兰迪色系主题变量 */
+:root {
+  /* 核心色彩 */
+  --morandi-primary: #B5A99A;
+  --morandi-primary-light: #C8BEB2;
+  --morandi-primary-dark: #9B8B7A;
+  --morandi-secondary: #C4B8A8;
+  --morandi-bg: #F5F1EC;
+  --morandi-bg-card: #FFFFFF;
+  --morandi-bg-hover: #EDE8E2;
+  --morandi-text: #6B5E52;
+  --morandi-text-light: #8C7E72;
+  --morandi-text-secondary: #A69888;
+  --morandi-accent: #9B8B7A;
+  --morandi-success: #A8B5A0;
+  --morandi-warning: #C4B88A;
+  --morandi-error: #C47B6A;
+  --morandi-info: #A8B5C4;
+  --morandi-border: #DDD6CE;
+  --morandi-border-light: #E8E2DB;
+  --morandi-shadow: rgba(107, 94, 82, 0.08);
+  --morandi-shadow-hover: rgba(107, 94, 82, 0.15);
+
+  /* 多日路线颜色 */
+  --day-color-1: #A8B5C4;
+  --day-color-2: #B5C4A8;
+  --day-color-3: #C4B8A8;
+  --day-color-4: #C4A8B5;
+  --day-color-5: #C4C4A8;
+  --day-color-6: #A8C4C4;
+  --day-color-7: #B5A8C4;
+
+  /* Element Plus 主题覆盖 */
+  --el-color-primary: #B5A99A;
+  --el-color-primary-light-3: #C8BEB2;
+  --el-color-primary-light-5: #D6CEC4;
+  --el-color-primary-light-7: #E4DDD5;
+  --el-color-primary-light-8: #EBE5DF;
+  --el-color-primary-light-9: #F2EEEA;
+  --el-color-primary-dark-2: #9B8B7A;
+  --el-color-success: #A8B5A0;
+  --el-color-warning: #C4B88A;
+  --el-color-danger: #C47B6A;
+  --el-color-info: #A8B5C4;
+  --el-bg-color: #F5F1EC;
+  --el-bg-color-page: #F5F1EC;
+  --el-bg-color-overlay: #FFFFFF;
+  --el-text-color-primary: #6B5E52;
+  --el-text-color-regular: #6B5E52;
+  --el-text-color-secondary: #8C7E72;
+  --el-text-color-placeholder: #A69888;
+  --el-border-color: #DDD6CE;
+  --el-border-color-light: #E8E2DB;
+  --el-fill-color-light: #F5F1EC;
+  --el-font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --el-border-radius-base: 12px;
+  --el-border-radius-small: 8px;
+}
+
+/* Element Plus 组件细调 */
+.el-button--primary {
+  background-color: var(--morandi-primary) !important;
+  border-color: var(--morandi-primary) !important;
+}
+.el-button--primary:hover {
+  background-color: var(--morandi-primary-dark) !important;
+  border-color: var(--morandi-primary-dark) !important;
+}
+.el-input__wrapper {
+  border-radius: 10px !important;
+  box-shadow: 0 0 0 1px var(--morandi-border) inset !important;
+}
+.el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px var(--morandi-primary-light) inset !important;
+}
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px var(--morandi-primary) inset !important;
+}
+.el-card {
+  border-radius: 16px !important;
+  border: 1px solid var(--morandi-border-light) !important;
+  box-shadow: 0 2px 12px var(--morandi-shadow) !important;
+}
+.el-card:hover {
+  box-shadow: 0 4px 20px var(--morandi-shadow-hover) !important;
+}
+.el-tag {
+  border-radius: 20px !important;
+}
+.el-dialog {
+  border-radius: 20px !important;
+}
+.el-tabs__item.is-active {
+  color: var(--morandi-primary-dark) !important;
+}
+.el-tabs__active-bar {
+  background-color: var(--morandi-primary) !important;
+}
